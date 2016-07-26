@@ -59,7 +59,9 @@ export default AppView;
 something something `left-pad`
 
 ### Contributing
-There's almost certainly no reason to contribute.
+Please help expand the FAQ to unconscionable lengths.
+
+Also address issues I guess, but that's secondary.
 
 ### FAQ
 > Does the API even deserve to be called an API? It's not really an interface, as much as it is ~6 lines of utility functions
@@ -90,3 +92,12 @@ Yes, I strongly encourage it. It falls directly in line with a quintessential so
 **— [@evinism](https://github.com/evinism)**
 
 Yes, in the same way that everyone is a dumbed down version of Einstein, so too is this a dumbed down version of literally everything.
+
+
+> Why doesn't subscribe just take a single function, and allow the user to just `compose(listenerFn, readFn)` themselves?
+
+**— [@evinism](https://github.com/evinism)**
+
+Reasons: 
+- I think it's an unnecessary abstraction. I want to enforce that semantic separation of a listener and a reader, I feel like it makes the dataflow easier to reason about.
+- I didn't think of it at first
