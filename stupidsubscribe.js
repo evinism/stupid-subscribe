@@ -5,7 +5,7 @@ const subscribe = (listener, read) => subscription.push({listener, read});
 
 const action = (fn) => (...args) => {
   const res = fn(...args);
-  subscription.forEach(({action, read}) => action(read()));
+  subscription.forEach(({listener, read}) => listener(read()));
   return res;
 };
 
