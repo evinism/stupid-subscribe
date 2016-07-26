@@ -16,7 +16,7 @@ This implements an `<h1>` that increments a counter when you click on it.
 
 ```
 // index.jsx
-import {subscribe} from 'stupidsubscribe';
+import {subscribe} from 'stupid-subscribe';
 import appInterface from './app.js';
 import AppView from './appview.jsx';
 
@@ -31,7 +31,7 @@ subscribe(
 
 ```
 // app.js
-import {action} from 'stupidsubscribe';
+import {action} from 'stupid-subscribe';
 
 let numTimes = 0;
 
