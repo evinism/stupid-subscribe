@@ -1,7 +1,7 @@
 # stupid-subscribe
 Tiny JS snippet for an extremely simple, extremely stupid data subscriber.
 
-###API
+### API
 API consists of 2 stupid functions `subscribe` and `action`;
 
 `action: (fn) => (fn)` wraps a function and introduces the sole side effect of triggering all subscribed actions.
@@ -55,7 +55,7 @@ const AppView = (props) => (
 export default AppView;
 ```
 
-###Motivation
+### Motivation
 something something `left-pad`
 
 ### Contributing
